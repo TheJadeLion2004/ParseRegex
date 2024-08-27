@@ -200,7 +200,7 @@
 
   int main(void) {
     yyparse();
-    printFollowpos(followpos);  
+    /*printFollowpos(followpos);  */
     while (!unmarked.empty()){
       int tid = unmarked.front();
       set<int> temp = statelist[tid].associated_parse_states;
@@ -272,7 +272,7 @@
         edgelist.push_back(tempedgeb);
       }
     }
-    printStatelist();   
+    /*printStatelist();   */
     cout << "digraph DFA {" << endl << "  rankdir = TB;" << endl     ;
     for (int i = 0; i <   statelist.size(); i++){
       cout << "   q" << i;   

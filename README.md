@@ -1,7 +1,7 @@
 # ParseRegex
 This is a program to visualise two character regexes as a DFA
 
-## Installation
+## Installation in linux
 Download the a.out file, which can be directly run as a binary
 
 ## Usage
